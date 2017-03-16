@@ -1,0 +1,72 @@
+{
+    "title":
+    {
+      "required": true,  
+      "label": "Offer Title"
+    },
+    "url_friendly_name":
+    {
+      "required": true,  
+      "label": "URL Extension"
+    },        
+    "sub_title":
+    {
+      "type": "richtext",
+      "label": "Sub Title"
+    }, 
+    "short_desc":
+    {
+      "required": true,  
+      "type": "richtext",
+      "label": "Short Desc"
+    },   
+   "long_desc":
+    {
+      "required": true,  
+      "type": "richtext",
+      "label": "Detail Desc"
+    },   
+    "offer_image":
+    {
+      "required": true,  
+      "type": "image",
+      "label": "Upload Image"   
+    },        
+    "readmore_btn_text":
+    {
+      "required": true,  
+      "label": "Read More Button Text"
+    }, 
+    "book_pkg_online":
+    {
+      "label": "Book More Button Text"
+    },
+    "book_btn_link":
+    {
+      "label": "Book Now Button URL"
+    },
+    "category":
+    {
+      "label": "Category",
+      "type":"model",
+      "display_field": "name", 
+      "model_name":"offercategories"
+    }, 
+    "is_private":
+    {
+      "type": "bool",
+      "label": "Private Offer"
+    },  
+    "page_title":{
+      "label": "Page Title Tag - 55 Character Limit"
+    }, 
+    "meta_content":{
+      "type": "richtext",
+      "label": "Meta Description - 155 Character Limit"
+    },            
+    "sort_order": 
+    { 
+      "type": "integer",
+      "required": true 
+    }
+}
