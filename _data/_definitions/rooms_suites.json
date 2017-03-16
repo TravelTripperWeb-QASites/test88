@@ -1,0 +1,7 @@
+
+   {
+        "thumb": {"type" : "image"},
+        "full": {"type" : "image"},
+        "caption": {"type" : "text"},
+        "link": {"type" : "text"}
+  }

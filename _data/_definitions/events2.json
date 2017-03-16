@@ -1,0 +1,47 @@
+{
+  "title":
+  {
+    "required": true,
+    "label": "Event Title"
+  },
+   "url_friendly_name":
+    {
+      "required": true,  
+      "label": "Page Url Slug"
+    }, 
+  "from_date":
+  {
+    "type": "date",
+    "label": "From Date"
+  },
+  "to_date":
+  {
+    "type": "date",
+    "label": "To Date"
+  },
+  "short_desc":
+  {
+    "required": true,
+    "type": "richtext",
+    "label": "Short Desc"
+  },
+  "long_desc":
+  {
+    "type": "richtext",
+    "label": "Detail Desc"
+  },
+  "book_pkg_online":
+  {
+    "label": "Book Button Text"
+  },
+  "event_btn_link":
+  {
+    "required": true,
+    "label": "Read More Url"
+  },
+  "sort_order":
+  {
+    "type": "integer",
+    "required": true
+  }
+}
